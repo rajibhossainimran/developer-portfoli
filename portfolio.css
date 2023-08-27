@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(image/header_bg.png),url(image/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+/*---------- navbar design------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 40px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 30px;
+    
+}
+.button-nav{
+    border: none;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 8px 15px;
+    font-weight: 700;
+
+}
+/* bannner style part------------------ */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+.banner-subtitle{
+    color: rgb(105, 104, 102);
+
+}
+.banner-title{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-text{
+    color: rgb(83, 82, 82);
+    margin-bottom: 30px;
+}
+
+/* section part ------------- */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+.section-text{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.about{
+    background-color: antiquewhite;
+    margin-top: 40px;
+    padding: 100px 150px;
+}
+.about-text{
+    text-align: center;
+    font-size: 18px;
+    color: #646261;
+}
+/* table style------- */
+thead tr{
+    text-align: center;
+    /* background-color: #FD6E0A; */
+    padding: 4px 100px;
+    
+}
+thead tr td{
+    padding: 3px 60px;
+    color: #646261;
+}
+table{
+   margin:50px auto;
+}
+tbody tr{
+    text-align: center;  
+}
+tbody tr td{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
